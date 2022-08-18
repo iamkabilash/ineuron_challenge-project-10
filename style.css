@@ -33,6 +33,17 @@ nav{
     align-items: center;
     margin-top: -55px;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 35px;
+}
+#menu{
+    color: #fff;
+    width: 60px;
+    display: none;
+}
 .nav-item{
     cursor: pointer;
     color: #fff;
@@ -42,7 +53,6 @@ nav{
 }
 .logo h2{
     margin-left: 80px;
-    padding-top: 35px;
     color: #fff;
     font-size: 25px;
     cursor: pointer;
@@ -144,3 +154,168 @@ nav{
     font-size: 16px;
     font-weight: 600;
 }
+
+/* ------- media queries ---- */
+
+@media only screen and (max-width: 1450px) {
+    header{
+        height: 130px;
+        width: 100%;
+    }
+    nav{
+        float: right;
+        margin-right: 50px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-bottom: none;
+    }
+    .call-us{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -55px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 35px;
+    }
+    #menu{
+        color: #fff;
+        width: 60px;
+        display: block;
+        margin-left: 50px;
+    }
+    .nav-item{
+        cursor: pointer;
+        color: #fff;
+        margin-left: 30px;
+        font-size: 17px;
+        font-weight: 600;
+        display: none;
+    }
+   #call{
+        display: flex;
+    }
+    .logo h2{
+        margin-left: 50px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero h1{
+        color: #fff;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .learn-more{
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        border: 3px solid #fff;
+        background-color: #ffffff00;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+    .learn-more:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .create-space{
+        position: relative;
+        right: auto;
+        top: auto;
+        display: flex;
+        margin-left: 80px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .innovation{
+        position: relative;
+        right: auto;
+        bottom: auto;
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        margin-left: 80px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .container{
+        width: 250px;
+        height: 150px;
+        background-color: #5db0f469;
+        border-radius: 5px;
+    }
+    .vertical-line{
+        display: none;
+        height: 70px;
+        width: 3px;
+        background-color: #fff;
+    }
+    .horizontal-line{
+        display: none;
+        width: 70px;
+        height: 3px;
+        background-color: #fff;
+    }
+    .round{
+        display: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        background-color: #fff;
+    }
+    .line-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .create-space svg{
+        float: left;
+        position: relative;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .create-space p{
+        float: left;
+        position: relative;
+        margin-left: 10px;
+        margin-top: -30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .innovation svg{
+        float: left;
+        position: relative;
+        margin-left: -120px;
+        margin-top: -20px;
+    }
+    .innovation p{
+        float: left;
+        position: relative;
+        margin-left: 20px;
+        margin-top: -20px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+  }
